@@ -196,6 +196,7 @@ body {
     transition:0.4s ease-in-out;
     margin: 100px;
     text-align:center;
+    display: inline-block;
 }
 .social_about:hover { 
     cursor: pointer;
@@ -236,6 +237,20 @@ body {
     cursor:text;
 }
 #used div:hover {
+    cursor:text;
+}
+#used_interests div{
+    font-size:20px !important;
+    display:inline-block;
+    padding:8px 10px;
+    border:2px solid #fff;
+    margin:5px 10px;
+    border-radius:50px;
+}
+#used_interests:hover {
+    cursor:text;
+}
+#used_interests div:hover {
     cursor:text;
 }
 .container h1 {
@@ -354,6 +369,7 @@ body {
 	background: rgb(255, 50, 50);
 }
 
+
 @media (max-width: 800px){ 
     #about {
         display:none;
@@ -395,4 +411,11 @@ body {
     #box div {
         width:100%;
     }
+    .social_about {
+        margin: 45px;
+    }
+    .social {
+        display: inline-block;
+    }
 }
+
